@@ -36,6 +36,8 @@ partidas_brasileirao <- readr::read_csv2("https://git.io/JOqUN")
 usethis::use_data(partidas_brasileirao)
 usethis::use_r("encontrar_pior_ano_time")
 
+usethis::use_r("data")
+
 futurama::partidas_brasileirao
 futurama::encontrar_pior_ano_time("Cruzeiro")
 futurama::encontrar_pior_ano_time()
