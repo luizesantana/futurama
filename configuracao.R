@@ -3,7 +3,7 @@ library(devtools)
 usethis::use_package("dplyr")
 
 
-use_cc0_license()
+usethis::use_agpl3_license()
 use_package("rmarkdown", "Suggests")
 use_readme_md(
 )
