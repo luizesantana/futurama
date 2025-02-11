@@ -11,6 +11,7 @@ usethis::edit_file("DESCRIPTION")
 
 x <- 1
 y <- 2
+
 use_data(x,y)
 
 
@@ -42,3 +43,7 @@ futurama::fun(3,5)
 
 usethis::use_data_raw("meus_dados")
 devtools::document()
+usethis::use_git()
+
+usethis::create_github_token()
+usethis::use_github()
